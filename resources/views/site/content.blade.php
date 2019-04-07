@@ -264,7 +264,7 @@
                 </div>
                 <div class="col-lg-8 wow fadeInLeft delay-06s">
                     <div class="form">
-                        <form action="{{route('home')}}" method="post">
+                        <form action="/" method="post">
                             {{ csrf_field() }}
                             <input class="input-text" type="text" name="name" value="" placeholder="name" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
                             <input class="input-text" type="text" name="email" value="" placeholder="email" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
